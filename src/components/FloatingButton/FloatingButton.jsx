@@ -25,7 +25,7 @@ const FloatingButton = () => {
 
       {/* Form */}
       {isFormOpen && (
-        <div className="fixed bottom-28 right-10 bg-white shadow-lg rounded-lg p-4 w-96 ">
+        <div className="fixed bottom-28 lg:right-10 sm:right-7 bg-white shadow-lg rounded-lg p-4 lg:w-96 sm:w-80 ">
           <h2 className="text-xl font-semibold text-gray-800 mb-2 flex items-center gap-2">
             Quick Contact{" "}
             <span role="img" aria-label="wave">
